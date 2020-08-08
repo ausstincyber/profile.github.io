@@ -1,0 +1,99 @@
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  background: url(../images/nasa-vltMzn0jqsA-unsplash.jpg) no-repeat fixed;
+  background-size: cover;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: 'Bad Script', cursive;
+  margin: 0; 
+  font-weight: normal; 
+  text-transform: lowercase;
+}
+h1 {
+  font-size: 75px;  
+}
+p {
+  font-size: 18px;
+  line-height: 1.5; 
+}
+a {
+  color: #706e6f; 
+}
+a:hover {
+  color: #CECCCC;
+}
+header, 
+section, 
+footer {
+  padding: 100px 150px;
+}
+.loves, 
+footer {
+  text-align: center;
+}
+strong {
+  color: #706e6f;
+}
+img {
+  border-radius: 50%;
+}
+
+
+
+header {
+  background: #CECCCC;
+}
+header h1 {
+  font-size: 100px;
+  text-transform: inherit;
+}
+header h2 {
+  font-size: 32px;
+  text-transform: inherit;
+}
+
+
+.about {
+  background: rgba(153, 150, 151, 0.95);
+  color: white;
+}
+.profile-img {
+  float: right;
+  margin-left: 20px;
+  height: 350px;
+  width: 400px;
+  
+}
+
+.loves {
+  background: #706d6f;
+}
+.loves img {
+  width: 280px;
+  margin: 15px;
+}
+.imgs{
+  height:280px;
+}
+.pl{
+  height: 280px;
+  border-radius: 20px;
+}
+
+footer {
+  background: #0F110C;
+  color: #CECCCC;
+}
